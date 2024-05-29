@@ -2,6 +2,7 @@ import React from "react";
 import bookingImg from "../../assets/images/booking-hero.jpg"
 import {Home} from "lucide-react"
 import Form from "../Form";
+import Form1 from "../Form1"
 import Footer from "../Footer";
 import 'animate.css';
 import {Fade} from "react-awesome-reveal";
@@ -16,7 +17,7 @@ const Reservation = () =>{
                     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0.5)), url(${bookingImg})` ,
                  }}
                  >
-                     <div className="flex items-center text-white font-plein text-4xl px-14">
+                     <div className="flex items-center text-white font-plein text-4xl md:px-14 px-7">
                          <h1>Reservation.</h1>
                      </div>
                 </div>
@@ -47,6 +48,7 @@ const Reservation = () =>{
                     <div className="flex">
                         <div className=" relative items-center flex md:max-w-[700px] w-[800px]  justify-center  animate__animated animate__slideInUp">
                             <Form/>
+                            {/*<Form1/>*/}
                         </div>
                     </div>
                 </div>

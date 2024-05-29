@@ -12,12 +12,12 @@ const Contact = () =>{
                         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0.5)), url(${bookingImg})` ,
                     }}
                 >
-                    <div className="flex items-center text-white font-plein text-4xl px-14">
+                    <div className="flex items-center text-white font-plein text-4xl md:px-14 px-7">
                         <h1>Contact.</h1>
                     </div>
                 </div>
                 <div className="h-dvh bg-[#020E14] grid md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2">
-                    <Fade direction="left" className="p-14 flex  items-center">
+                    <Fade direction="left" className="md:p-14 p-7 flex  items-center">
                         <div className="flex flex-col">
                             <h1 className="text-white font-telma text-7xl border-b-4 border-[#911D10] pb-2">Opening hours:</h1>
                             <p className="font-body md:text-2xl text-base text-wrap text-[#D5D5D5] pt-7">Monday to Friday 12:00 am – 11:30 pm</p>
@@ -37,7 +37,7 @@ const Contact = () =>{
                     </div>
                 </div>
             </div>
-            {/*<Footer/>*/}
+            <Footer/>
         </>
     )
 }
