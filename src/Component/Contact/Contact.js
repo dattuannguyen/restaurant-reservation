@@ -26,13 +26,16 @@ const Contact = () =>{
                     </Fade>
 
                     <div className="flex justify-center items-center bg-[#911D10]">
-                        <div className="flex flex-col p-14 border-2 border-[#020E14] rounded-2xl">
-                            <h1 className="text-[#020E14] font-cabinet-grotesk text-3xl">1997. Restaurant</h1>
-                            <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">Beilingerstr.42 , 86316 Friedberg</p>
-                            <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">(+49) 123456789</p>
-                            <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">1997.restaurant@gmail.com</p>
-                            <br/>
-                        </div>
+                        <Fade direction="up" triggerOnce="true">
+                            <div className="flex flex-col p-14 border-2 border-[#020E14] rounded-2xl">
+                                <h1 className="text-[#020E14] font-cabinet-grotesk text-3xl">1997. Restaurant</h1>
+                                <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">Beilingerstr.42 , 86316 Friedberg</p>
+                                <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">(+49) 123456789</p>
+                                <p className="font-body md:text-2xl text-base text-wrap text-[#020E14]">1997.restaurant@gmail.com</p>
+                                <br/>
+                            </div>
+                        </Fade>
+
 
                     </div>
                 </div>

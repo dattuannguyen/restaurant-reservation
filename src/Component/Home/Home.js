@@ -35,7 +35,7 @@ const Home = () =>{
                     <img src={about} alt="" className="md:w-full md:h-[600px] w-full h-[250px] rounded-3xl justify-center flex transform hover:scale-105 transition ease-out duration-700"/>
                 </div>
                 <div className="text-white w-fit  items-center flex md:m-20">
-                    <Fade direction="right">
+                    <Fade direction="right" duration="1500">
                         <div className="flex flex-col">
                             <div>
                                 <h1 className="text-white font-telma md:text-7xl text-4xl border-b-4 border-[#911D10] pb-2 inline-block">About us </h1>
@@ -60,7 +60,6 @@ const Home = () =>{
                                 <p className="flex items-center">{'<-'} </p>
                             </div>
                         </div>
-
                     </Fade>
                 </div>
 
